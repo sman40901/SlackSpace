@@ -1,0 +1,10 @@
+D:\dotNet\SlackSpace\SlackSpace\bin\Debug\SlackSpace.exe.config
+D:\dotNet\SlackSpace\SlackSpace\bin\Debug\SlackSpace.exe
+D:\dotNet\SlackSpace\SlackSpace\bin\Debug\SlackSpace.pdb
+D:\dotNet\SlackSpace\SlackSpace\obj\Debug\SlackSpace.csprojAssemblyReference.cache
+D:\dotNet\SlackSpace\SlackSpace\obj\Debug\SlackSpace.SlackSpace.resources
+D:\dotNet\SlackSpace\SlackSpace\obj\Debug\SlackSpace.Properties.Resources.resources
+D:\dotNet\SlackSpace\SlackSpace\obj\Debug\SlackSpace.csproj.GenerateResource.cache
+D:\dotNet\SlackSpace\SlackSpace\obj\Debug\SlackSpace.csproj.CoreCompileInputs.cache
+D:\dotNet\SlackSpace\SlackSpace\obj\Debug\SlackSpace.exe
+D:\dotNet\SlackSpace\SlackSpace\obj\Debug\SlackSpace.pdb
