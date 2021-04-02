@@ -43,8 +43,22 @@ namespace SlackSpace
 
         private void clickCalculate()
         {
-            double cluster = Convert.ToDouble(this.txtClusterSize.Text);
-            double file = Convert.ToDouble(this.txtFileSize.Text);
+            double cluster = 0, file = 0;
+            try
+            {
+                cluster = Convert.ToDouble(this.txtClusterSize.Text);
+                file = Convert.ToDouble(this.txtFileSize.Text);
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("Error with numbers!");
+                return;
+            }
+            if (cluster <= 0.0 || file <= 0.0)
+            {
+                MessageBox.Show("Numbers cannot be 0 or -ve number!");
+                return;
+            }
             this.txtPhysicalSize.Text = diskCluster.calculatePhysicalSize(cluster, file) + "";
             this.txtNoOfCluster.Text = diskCluster.calculateClusterUsed(cluster, file) + "";
             this.txtSlackSpace.Text = diskCluster.calculateSlackSpace(cluster, file) + "";
@@ -54,6 +68,11 @@ namespace SlackSpace
         private void SlackSpace_Load(object sender, EventArgs e)
         {
             this.ActiveControl = this.txtClusterSize;
+        }
+
+        private void txtFileSize_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

@@ -88,6 +88,7 @@ namespace SlackSpace
             this.txtFileSize.Name = "txtFileSize";
             this.txtFileSize.Size = new System.Drawing.Size(358, 20);
             this.txtFileSize.TabIndex = 3;
+            this.txtFileSize.TextChanged += new System.EventHandler(this.txtFileSize_TextChanged);
             // 
             // chkUseDefaultSize
             // 
